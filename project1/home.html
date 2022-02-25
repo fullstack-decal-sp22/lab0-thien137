@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Your Personal Website: Template 1</title>
+</head>
+<body>
+    <div class="splash-page">
+        <div class="navbar">
+            <div class="logo">
+                <h1>Logo.</h1>
+            </div>
+            <div class="nav">
+                <a class="nav-button" href="#about">About</a>
+                <a class="nav-button" href="#portfolio">Portfolio</a>
+                <a class="nav-button" href="#contact">Contact</a>
+                <a id="resume" class="nav-button" href="Resume.pdf" target="_blank">Resume</a>
+            </div>
+        </div>
+        <div id="about" class="headline">
+            <h1>Hi! &#128512 I'm Thien, and I'm a software
+                engineer studying EECS @ UC Berkeley.
+            </h1>
+            <h2>Thanks for stopping by!
+                Scroll down to see some of my work.
+            </h2>
+        </div>
+    </div>
+    <div class="arrow">
+        &#8595;
+    </div>
+    <div id="portfolio" class="portfolio">
+        <div class="proj-col">
+            <div class="proj-item">
+                <div class="proj-image">
+                    <a href="https://github.com/thien137/Pathing-Visualizer" target="_blank"><img src="path.png" /></a>
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-name">
+                    Pathfinding Visualizer
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-desc">
+                     A pathfinding visualizer that I created in Python. Essentially, you can create a
+                     choose two points in a grid map, add as many walls as you want, and then the program will
+                     quickly find a path between those two points that doesn't move through any walls. The program
+                     uses three different pathfinding algorithms. These include: A*, Djikstras, and Jump Point Search.
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-image">
+                    <a href="https://github.com/thien137/Chess" target="_blank">
+                        <img src="chess.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-name">
+                    Chess
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-desc">
+                    A fully playable Chess game written in Python. All functionalities work as expected, and it
+                    also has the option to connect to a server so that you can play with your friends! 
+                </div>
+            </div>
+        </div>
+        <div class="proj-col">
+            <div class="proj-item">
+                <div class="proj-image">
+                    <img src="jump.jpg"/>
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-name">
+                    Jump King At Home
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-desc">
+                    I really like Jump King and I wanted it to 
+                    be part of my learning experience. This is a near-perfect replica of Jump King. Various things are still 
+                    missing like the extras and end-game stuff. I added a few things to make the game a bit easier which include: 
+                    a checkbox to show hitboxes under the graphics menu and a flying mode triggered by pressing "C". The code is 
+                    a bit messy and there are probably a lot of bugs, but this was my first time making a project this big. It was 
+                    a lot of fun! (This link is not provided for copyright reasons)
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-image" style="background-color: rgb(238, 238, 238);;">
+                    <img src="git.png"/>
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-name">
+                    Gitlet
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-desc">
+                    Implementation of Git in Java. Curretly under construction &#128679;
+                </div>
+            </div>
+        </div>
+        <div class="proj-col">
+            <div class="proj-item">
+                <div class="proj-image">
+                    <a href="https://github.com/thien137/PythonInterpreter" target="_blank">
+                        <img src="python.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-name">
+                    Python Interpreter
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-desc">
+                    My own implementation of the Python Interpreter in C++. Currently under construction, but progress
+                    is being made fast. A fully functional PEG Python parser will be coming out soon!
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-image">
+                    <img src="flappy.png"/>
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-name">
+                    Flappy Bird
+                </div>
+            </div>
+            <div class="proj-item">
+                <div class="proj-desc">
+                    My first ever game that I ever made as I began learning how to program! A fully playable
+                    version of Flappy Bird that can be played on your computer.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Contact</h2>
+        <h3>Email: thienle1942@berkeley.edu</h3>
+    </div>
+</body>
+</html>
